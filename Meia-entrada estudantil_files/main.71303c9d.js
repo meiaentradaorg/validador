@@ -8261,7 +8261,7 @@ var a = function(e) {
                         (e[o].q = e[o].q || []).push(arguments);
                     }, e[o].l = 1 * new Date, a = t.createElement(n), i = t.getElementsByTagName(n)[0], 
                     a.async = 1, a.src = r, i.parentNode.insertBefore(a, i);
-                }(window, document, "script", e && e.gaAddress ? e.gaAddress : "https://www.google-analytics.com/analytics.js", "ga");
+                };
             };
         }, function(e, t, n) {
             "use strict";
